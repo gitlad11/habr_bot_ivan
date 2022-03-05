@@ -10,7 +10,7 @@ import dns
 import parsing
 
 #MongoDB
-Connection_DB = 'mongodb+srv://admin:administration@cluster0.pcwin.mongodb.net/datab?retryWrites=true&w=majority'
+Connection_DB = 'mongodb+srv://admin:password@cluster0.pcwin.mongodb.net/datab?retryWrites=true&w=majority'
 client = pymongo.MongoClient(Connection_DB)
 db = client.get_database('datab')
 
